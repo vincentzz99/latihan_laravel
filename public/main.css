@@ -1,0 +1,190 @@
+body {
+    font-family: 'Lexend'; 
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    /* Add additional font variations as needed */
+}
+h1 {
+    padding: 0%;
+}
+.header {
+    
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoBR {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login {
+    display: flex;
+    align-items: center;
+}
+.tulisanHome {
+    color: rgba(120, 81, 81, 1);
+    margin-right: 10px;
+    font-family: Lexend;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.tulisanLogin {
+    color: rgba(120, 81, 81, 1);
+    font-family: Lexend;
+    font-size: 16px;
+}
+
+.buttonLogin {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.section1{
+    width: auto;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.textKiriSection1 {
+    width: 50%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.textHappyCat {
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Lexend';
+    font-size: 48px;
+    color: 
+    rgba(120, 81, 81, 1);
+}
+
+.textHappyOwner {
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Lexend';
+    font-size: 48px;
+}
+
+.section2 {
+    width: auto;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUS {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.About {
+    font-size: 38px;
+}
+
+.US {
+    margin-left: 5px;
+    color: rgba(120, 81, 81, 1);
+    font-size: 38px;
+}
+
+.textSection2 {
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(128, 128, 128, 1);
+}
+
+.SupportBy {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(128, 128, 128, 1);
+}
+
+.gambarKochengSection3 {
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    align-items: center;
+    z-index: 2;
+}
+
+.OurService {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.textOur {
+    font-family: 'Lexend';
+    font-size: 38px;
+}
+
+.textService {
+    margin-left: 10px;
+    font-family: 'Lexend';
+    font-size: 38px;
+    color:rgba(120, 81, 81, 1);
+}
+
+.textSection3 {
+    font-family: 'Lexend';
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    z-index: 2;
+}
+.gambarBritish {
+    align-self: flex-end;
+    z-index: 1;
+}
+.gambarBritish {
+    z-index: 1;
+}
+
+.kolomSection3 {
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border: 5px solid black;
+} 
+ 
